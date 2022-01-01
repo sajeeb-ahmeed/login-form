@@ -4,11 +4,15 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: ;
+}
 .wrapper {
     width: 100%;
     height: 100vh;
-    background: url("img/image.jpg") no-repeat ;
+    background: url("img/image.jpg") no-repeat;
     background-size: cover;
 }
 
@@ -97,3 +101,22 @@
     text-transform: uppercase;
     font-size: 24px;
 }
+.dev {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(59, 59, 59, 0.55);
+    color: white;
+    text-align: center;
+  }
+  .dev p{
+      text-align: end;
+      font-size: 12px;
+  }
+  .dev .span_1{
+      color: rgb(74, 90, 116);
+  }
+  .dev .span_2{
+      color: rgb(73, 81, 85);
+  }
